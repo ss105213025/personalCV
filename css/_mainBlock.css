@@ -128,7 +128,7 @@
     width: 90%;
   }
 
-  /* 自我介紹 */
+  /* 學經歷 */
   .main-left-block .personal-data{
     margin-left: auto;
     margin-right: auto;
@@ -147,8 +147,21 @@
   }
 
   .personal-data .box{
-    width: 70%;
+    width: 75%;
     height: 100%;
+  }
+
+  .box .height-line{
+    background-color: #404249;
+
+    width: 3px;
+    height: 80%;
+
+    border: none;
+    border-radius: 99rem;
+
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
   }
   
   /* 右選單 */
