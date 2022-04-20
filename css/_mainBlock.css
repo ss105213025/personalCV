@@ -76,7 +76,7 @@
     border-radius: 50%;
 
     margin: 19% 19% auto;
-    height: 60%;
+    height: 58%;
     width: 60%;
 
     box-shadow: 0 0 .5em .04em rgba(0, 0, 0, .1);
@@ -275,25 +275,28 @@
     margin-bottom: 1rem;
   }
 
-  .frontend-framework:nth-child(1) .skill-scales .scales{
+  .frontend-framework:first-child .skill-scales .scales{
     height: 3px;
     width: 100px;
     border: none;
     border-radius: .5rem;
 
     background-color: #2471c9;
+
   }
 
-  .frontend-framework:nth-child(2) .skill-scales .scales{
+  .frontend-framework .skill-scales .scales{
     height: 3px;
     width: 60px;
     border: none;
     border-radius: .5rem;
 
     background-color: #67c9af;
+
+    
   }
 
-  .frontend-framework:nth-child(3) .skill-scales .scales{
+  .frontend-framework:last-child .skill-scales .scales{
     height: 3px;
     width: 160px;
     border: none;
@@ -301,9 +304,6 @@
 
     background-color: #dbce58;
   }
-
-
-
 }
 
 
