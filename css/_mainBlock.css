@@ -142,27 +142,94 @@
     background-color: #f6f6f6;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
   }
 
   .personal-data .box{
     width: 75%;
-    height: 100%;
+    height: 80%;
+    display: flex;
+  }
+
+  .personal-data .title-name{
+    margin-top: 3%;
+    font-size: 16pt;
   }
 
   .box .height-line{
     background-color: #404249;
 
     width: 3px;
-    height: 80%;
+    height: 85%;
 
     border: none;
-    border-radius: 99rem;
+    border-radius: .1rem;
 
-    margin-top: 7.5%;
-    margin-bottom: 7.5%;
+    margin-right: 0;
+    margin-top: 5%;
+
+    position: relative;
   }
+
+  .circle:first-child img{
+    position: absolute;
+    z-index: 1000;
+    top: -5%;
+    left: -9px;
+
+    height: 21px;
+    width: 21px;
+  }
+
+  .circle:nth-child(2) img{
+    position: absolute;
+    z-index: 1000;
+    top: 48%;
+    left: -9px;
+
+    height: 21px;
+    width: 21px;
+  }
+
+  .circle:nth-child(3) img{
+    position: absolute;
+    z-index: 1000;
+    bottom: -1%;
+    left: -9px;
+
+    height: 21px;
+    width: 21px;
+  }
+
+  .box .data-text{
+    position: relative;
+    width: 90%;
+    height: 100%;
+
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #717379;
+  }
+
+  .data-text p:first-child{
+    position: absolute;
+    left: 14%;
+    top: 6.5%;
+  }
+  .data-text p:nth-child(2){
+    position: absolute;
+    left: 14%;
+    top: 48%;
+  }
+  .data-text p:last-child{
+    position: absolute;
+    left: 14%;
+    bottom: 9%;
+  }
+
+  
   
   /* 右選單 */
   .content-block .main-right-block{
@@ -183,7 +250,60 @@
     border-radius: .5rem;
 
     background-color: #f6f6f6;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  .coding-reasons .frontend-framework {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+
+  .frontend-framework img{
+    margin-right: 30% ;
+  }
+
+  .frontend-framework .text-block p{
+    margin-bottom: 1rem;
+  }
+
+  .frontend-framework:nth-child(1) .skill-scales .scales{
+    height: 3px;
+    width: 100px;
+    border: none;
+    border-radius: .5rem;
+
+    background-color: #2471c9;
+  }
+
+  .frontend-framework:nth-child(2) .skill-scales .scales{
+    height: 3px;
+    width: 60px;
+    border: none;
+    border-radius: .5rem;
+
+    background-color: #67c9af;
+  }
+
+  .frontend-framework:nth-child(3) .skill-scales .scales{
+    height: 3px;
+    width: 160px;
+    border: none;
+    border-radius: .5rem;
+
+    background-color: #dbce58;
+  }
+
+
+
 }
 
 
