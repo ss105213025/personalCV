@@ -262,13 +262,14 @@
 
   .coding-reasons .frontend-framework {
     height: 30%;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
   }
 
   .frontend-framework img{
-    margin-right: 30% ;
+    margin-left: 15%;
+    margin-right: 20% ;
   }
 
   .frontend-framework .text-block p{
@@ -303,6 +304,10 @@
     border-radius: .5rem;
 
     background-color: #dbce58;
+  }
+
+  .frontend-framework:hover{
+
   }
 }
 
